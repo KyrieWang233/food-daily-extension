@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "今天吃什么",
+    "version": "1.0.0",
+    "description": "今天吃什么很重要！",
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "./libs/background/main.js",
+        "type": "module"
+    },
+    "action": {
+        "default_title": "今天吃什么",
+        "default_popup": "./libs/popup.html",
+        "default_icon": {
+            "16": "./assets/images/food16.png",
+            "32": "./assets/images/food32.png",
+            "48": "./assets/images/food48.png",
+            "64": "./assets/images/food64.png",
+            "128": "./assets/images/food128.png"
+        }
+    },
+    "options_page": "./libs/options.html",
+    "icons": {
+        "16": "./assets/images/food16.png",
+        "32": "./assets/images/food32.png",
+        "48": "./assets/images/food48.png",
+        "64": "./assets/images/food64.png",
+        "128": "./assets/images/food128.png"
+    },
+    "default_locale": "en"
+}
