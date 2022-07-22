@@ -1,6 +1,30 @@
-# Vue 3 + Vite
+# Food-daily
+好好吃饭，健康生活！
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 推荐环境
++ node: v14+
++ npm: v7+
++ manifest version: 3
++ vite2+vue3
+
+## 使用方法
++ 安装node.js[官网](https://nodejs.org/en/),推荐v14+,npm推荐v7+
++ 查看版本
+```shell
+node -v
+npm -v
+```
++ 进入目录，安装依赖
+```shell
+cd food-daily-extension //将终端的路径切换到项目文件夹中
+
+npm install //安装依赖包
+```
++ 启动项目
+```shell
+npm run watch //开发测试，启动热重载
+```
+将生成的dist文件拖到浏览器插件页面（钩上开发者模式）,即可成功开发
 
 ## Recommended IDE Setup
 
