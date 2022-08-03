@@ -9,12 +9,19 @@
     "watch": "vite build --watch"
   },
   "dependencies": {
+    "element-plus": "^2.2.11",
+    "swiper": "^8.3.2",
     "vue": "^3.2.25",
+    "vue-axios": "^3.4.1",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
     "@vitejs/plugin-vue": "^2.3.3",
+    "naive-ui": "^2.31.0",
+    "unplugin-auto-import": "^0.10.0",
+    "unplugin-element-plus": "^0.4.1",
+    "unplugin-vue-components": "^0.21.1",
     "vite": "^2.9.9",
     "vite-plugin-vue-crx3": "^1.0.8"
   }

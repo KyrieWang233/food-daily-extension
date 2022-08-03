@@ -1,5 +1,6 @@
-# Food-daily
+# Crazy-Recipe
 好好吃饭，健康生活！
+目前只有部分前端模版，数据交互逻辑等后续补充
 
 ## 推荐环境
 + node: v14+
@@ -25,6 +26,11 @@ npm install //安装依赖包
 npm run watch //开发测试，启动热重载
 ```
 将生成的dist文件拖到浏览器插件页面（钩上开发者模式）,即可成功开发
+
++ 项目打包
+```shell
+npm run build
+```
 
 ## Recommended IDE Setup
 

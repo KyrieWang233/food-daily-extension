@@ -6,6 +6,11 @@
     "host_permissions": [
         "<all_urls>"
     ],
+    "permissions": [
+        "storage",
+        "contextMenus",
+        "https://way.jd.com/*"
+      ],
     "background": {
         "service_worker": "./libs/background/main.js",
         "type": "module"
